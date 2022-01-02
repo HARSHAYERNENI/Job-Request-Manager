@@ -1,0 +1,22 @@
+    <!-- <div class="row">
+      <?php
+        $sql="SELECT `cname`,`position`,`jdesc`,`ctc`,`skills` FROM `jobs`";
+        $result=mysqli_query($conn,$sql);
+        if($result->num_rows>0){
+          while($row=$result->fetch_assoc()){
+            echo'
+              <div class="col-md-4">
+                <div class = "jobs">
+                <h3 style="text-align: center;">'.$row['position'].'</h3>
+                <h4 style="text-align: center;">'.$row['cname'].'</h4>
+                <p style="color: black; text-align: justify;">'.$row['jdesc'].'</p>
+                <p style="color: black;"><b>Skills Required:</b>'.$row['skills'].'</p>
+                <p style="color: black; "><b>CTC</b>'.$row['CTC'].'</p>
+                </div>
+              </div>';
+          }else{
+             echo'';
+          }
+        }
+       ?>
+    </div> -->
